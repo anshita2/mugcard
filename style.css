@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100vh;
+    background-color: rgba(239,231,221,255); /* Set the viewport background color to pink */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height:350px;
+    width:600px;
+    display: grid;
+    border-radius: 15px;
+    grid-template-columns: 0.7fr 1fr;
+    background-color: rgb(255, 255, 255);
+}
+
+#mug img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px 0px 0px 15px;
+}
+
+#content{
+    display: grid;
+    padding: 2rem;
+}
+button{
+    border: 0;
+    background-color: darkcyan;
+    border-radius: 9px;
+    height: 40px;
+    color: aliceblue;
+    font-weight: 600;
+}
+
+.sellprice{
+    color: darkcyan;
+    font-weight: 1000;
+    font-size: 30px;
+}
+.desc{
+    font-weight: 700;
+    color: rgb(131, 131, 131);
+}
+
+.title{
+    font-weight: 1000;
+    font-size: 35px;
+}
+
+.coffeemug{
+    letter-spacing: 4px;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+.price{
+    word-spacing: 10px;
+}
